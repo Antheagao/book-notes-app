@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import BookCard from '../components/BookCard/BookCard';
+import BookCard from '../../components/BookCard/BookCard';
 import './BookList.css';
 
 function BookList() {

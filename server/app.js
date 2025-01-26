@@ -13,7 +13,6 @@ app.use(express.json());
 const fetchBookCover = async (isbn) => {
   try {
     const response = await axios.get(`https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`);
-    console.log('Book cover fetched:', response.request.res.responseUrl);
     return response.request.res.responseUrl;
   } catch (error) {
     console.error('Error fetching book cover:', error);

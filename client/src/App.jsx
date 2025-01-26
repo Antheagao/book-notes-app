@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import './App.css';
-import Home from './pages/Home';
-import BookList from './pages/BookList';
-import AddBook from './pages/AddBook';
-import BookDetails from './pages/BookDetails';
-import EditBook from './pages/EditBook';
+import Home from './pages/Home/Home';
+import BookList from './pages/BookList/BookList';
+import AddBook from './pages/AddBook/AddBook';
+import BookDetails from './pages/BookDetails/BookDetails';
+import EditBook from './pages/EditBook/EditBook';
 
 function App() {
   return (

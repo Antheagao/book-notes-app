@@ -70,3 +70,7 @@ PORT=5000
   go to `http://localhost:5173/`
 
 ### Example Screenshot
+![App Home](./assets/book-notes-home.png)
+![App Add Book](./assets/book-notes-add.png)
+![App Edit Book](./assets/book-notes-edit.png)
+![App View Books](./assets/book-notes-view.png)

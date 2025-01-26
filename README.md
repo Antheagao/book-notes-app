@@ -28,14 +28,16 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Antheagao/book-notes-app.git
    cd book-notes-app
-   cd client 
+   cd client
+   ```
 2. Install dependencies for both the client and server
 ```bash
   npm install
   cd ../server
   npm install
+```
 
-  ```markdown
+```markdown
   ## Configuration
   Create a `.env` file in the `server` and `client` directories with the following variables:
 
@@ -43,6 +45,7 @@ To set up the project locally, follow these steps:
 ```env
 VITE_API_URL=http://localhost:5000
 PORT=5000
+```
 
 ### Server `.env`
 DB_USER=""
@@ -57,11 +60,13 @@ PORT=5000
    ```bash
    cd server
    npm start
+   ```
 2. Navigate to the `Client` directory in a new terminal
   ```bash
   cd client
   npm run dev
+```
 3. Open internet browser
-  go to http://localhost:5173/
+  go to `http://localhost:5173/`
 
 ### Example Screenshot

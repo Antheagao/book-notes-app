@@ -1,0 +1,45 @@
+.edit-book {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.edit-book h1 {
+  color: whitesmoke;
+  text-align: center; /* Center the heading */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input,
+.textarea,
+.button {
+  width: 100%; /* Make all form elements the same width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.button {
+  background-color: #851400;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.button:hover {
+  background-color: #6a0f00;
+}

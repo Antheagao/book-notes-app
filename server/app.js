@@ -1,7 +1,7 @@
 // Import required modules
 import express from 'express';
 import axios from 'axios';
-import pool from '../database/config.js';
+import pool from './database/config.js';
 
 // Initialize express app
 const app = express();

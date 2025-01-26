@@ -1,0 +1,28 @@
+.book-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-details h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.book-details p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.book-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

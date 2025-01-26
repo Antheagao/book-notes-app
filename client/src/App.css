@@ -1,0 +1,28 @@
+/* Ensure the HTML and body take up the full height of the viewport */
+html, body {
+  margin: 0;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+}
+
+/* Make the root element a flex container */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it takes at least the full viewport height */
+}
+
+/* Make the main content area grow to fill the available space */
+main {
+  flex: 1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}

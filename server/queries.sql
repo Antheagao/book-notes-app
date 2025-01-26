@@ -1,0 +1,12 @@
+CREATE TABLE books (
+	id SERIAL PRIMARY KEY,
+	title VARCHAR(255) NOT NULL,
+	author VARCHAR(255) NOT NULL,
+	isbn VARCHAR(13) UNIQUE NOT NULL,
+	rating 	NUMERIC(3, 1) CHECK (rating >= 0 AND rating <= 5),
+	notes TEXT,
+	cover_url VARCHAR(255),
+	date_read DATE,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

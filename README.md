@@ -30,6 +30,7 @@ To set up the project locally, follow these steps:
    cd book-notes-app
    cd client 
 2. Install dependencies for both the client and server
+```bash
   npm install
   cd ../server
   npm install

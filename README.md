@@ -11,7 +11,7 @@ This is a full-stack application to help users manage their book notes. Users ca
 
 ## Technologies Used
 - **Frontend**: React, Vite
-- **Backend**: Node.js, Express
+- **Backend**: Node.js, Express, Javascript
 - **Database**: Postgres
 - **Styling**: CSS
 

@@ -4,6 +4,12 @@ A website for organizing book notes
 ## Description
 This is a full-stack application to help users manage their book notes. Users can view, add, edit, and delete notes.
 
+### Photos of 
+![App Home](./assets/book-notes-home.png)
+![App Add Book](./assets/book-notes-add.png)
+![App Edit Book](./assets/book-notes-edit.png)
+![App View Books](./assets/book-notes-view.png)
+
 ### Features
 - CRUD operations for notes
 - Fetch book covers using api requests to https://openlibrary.org/dev/docs/api/covers
@@ -68,9 +74,3 @@ PORT=5000
 ```
 3. Open internet browser
   go to `http://localhost:5173/`
-
-### Example Screenshot
-![App Home](./assets/book-notes-home.png)
-![App Add Book](./assets/book-notes-add.png)
-![App Edit Book](./assets/book-notes-edit.png)
-![App View Books](./assets/book-notes-view.png)
